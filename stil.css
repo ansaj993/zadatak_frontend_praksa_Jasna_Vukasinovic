@@ -1,0 +1,461 @@
+@charset "UTF-8";
+/*CSS Document*/
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: Font1;
+  src: url(fontovi/FuturaStd-Condensed.otf);
+}
+
+
+@font-face {
+  font-family: Font2;
+  src: url(fontovi/OpenSans-Regular.ttf);
+}
+
+
+body {
+  font-family: Font2, Helvetica, Arial, Gotham, "Helvetica Neue";
+  font-size: 16px;
+}
+
+header {
+  background: url(slike/2.png) no-repeat left top;
+  background-size: cover;
+}
+
+
+button {
+  border: 2px solid #56bcbb;
+  cursor: pointer;
+  color: white;
+  padding: 17px 80px;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-family: Font1, Helvetica, Arial, Gotham, "Helvetica Neue";
+  -webkit-transition: background 500ms ease-in;
+  transition: background 500ms ease-in;
+  background-position: 30%;
+}
+
+button:hover {
+  background-color: #56bcbb;
+  background-size: 855px;
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+
+
+header button {
+    background-image: -webkit-linear-gradient(-152deg, transparent 65%, #56bcbb 35%);
+    background-image: linear-gradient(-152deg, transparent 65%, #56bcbb 35%);
+    float: right;
+    margin-right: 15%;
+    margin-top: 3%;
+    }
+
+header img {
+  margin-top: 15%;
+  width: 40%;
+  margin-left: 30%;
+  padding-bottom: 10%;
+}
+
+header p {
+  color: white;
+  text-align: center;
+  font-family: Font1, Helvetica, Arial, Gotham, "Helvetica Neue";
+  font-size: 30px;
+  padding-bottom: 1%;
+}
+
+header p.menlo {
+  text-transform: uppercase;
+}
+
+header img:last-child {
+  width: 70px;
+  margin-top: 1%;
+  padding-bottom: 1%;
+  margin-left: 47%;
+  cursor: pointer;
+}
+
+section {
+  overflow: auto;
+}
+
+h1,h2 {
+  text-transform: uppercase;
+  color:#2e5470;
+  font-family: Font1, Helvetica, Arial, Gotham, "Helvetica Neue";
+  font-weight: bold;
+  font-size: 50px;
+}
+
+h1 {
+  margin-top: 100px;
+  margin-bottom: 1%;
+}
+
+h2 {
+  margin-top: 1%;
+}
+
+hr {
+  border: 3px solid #56bcbb;
+  width: 28%;
+  margin-bottom: 80px;
+}
+
+#aboutus hr {
+  width: 23%;
+}
+
+h1, h2, article {
+    padding-left: 10%;
+}
+
+#aboutus article h2 {
+   padding-left: 0;
+   margin-bottom: 48px;
+ }
+
+#aboutus article, #ourinvestors h2, #ouradvisors h2 {
+  width: 55%;
+  float: left;
+}
+
+#aboutus article {
+  margin-right: 100px;
+  margin-bottom: 110px;
+  }
+
+#aboutus img {
+  display: inline-block;
+  margin-top: 40px;
+  position: absolute;
+}
+
+#aboutus img:first-child {
+  width: 430px;
+  clip-path: polygon(50% 0%, 90% 50%, 55% 100%, 15% 55%);
+  right: 167px;
+}
+
+#aboutus img:nth-child(2) {
+  margin-top: 195px;
+  right: 50px;
+  width: 300px;
+}
+
+#aboutus img:last-child {
+  margin-top: 350px;
+  right: 187px;
+  display: block;
+  clip-path: polygon(50% 0%, 95% 50%, 50% 100%, 5% 50%);
+  width: 345px;
+}
+
+#ourportfolio {
+  background-image: url(slike/Untitled-1.png);
+  background-size: cover;
+  color: white;
+}
+
+#ourportfolio h1, #ourinvestors h1, #ourinvestors h2 {
+  color: white;
+}
+
+#ourportfolio article {
+  float: left;
+  width: 35%;
+  padding: 32px 30px;
+  margin-left: 15%;
+  margin-bottom: 20px;
+  background-color: rgba(29,44,55,0.5);
+}
+
+#ourportfolio article:hover {
+  box-shadow: 5px 5px 8px rgba(0,0,0,0.2);
+  }
+
+
+#ourportfolio article.edgybees, #ourportfolio article.lookingglass {
+  margin-left: 5%;
+}
+
+#ourportfolio article p.opis {
+  color: #56bcbb;
+  font-style: italic;
+  padding-bottom: 45px;
+  font-family: Font2, Helvetica, Arial, Gotham, "Helvetica Neue";
+}
+
+#ourportfolio article button {
+  display: block;
+  margin-top: 30px;
+  background-image: -webkit-linear-gradient(-155deg, transparent 65%, #56bcbb 35%);
+  background-image: linear-gradient(-155deg, transparent 65%, #56bcbb 35%);
+}
+
+#ourportfolio h1:last-child {
+  text-align: center;
+  clear: both;
+  width: 70%;
+  padding: 35px 0 50px 350px;
+}
+
+#ourportfolio article.elroy img {
+  width: 65%;
+}
+
+#ourportfolio article.planck img {
+  width: 80%;
+}
+
+#ourportfolio article.edgybees img {
+  width: 100%;
+}
+
+#ouradvisors article, #ouradvisors h2:last-child {
+  margin-bottom: 115px;
+  float: left;
+  }
+
+#ouradvisors article.robert, #ouradvisors article.tom, #ouradvisors h2 {
+  padding-left: 1%;
+}
+
+
+
+#ouradvisors h3 {
+  font-family: Font1, Helvetica, Arial, Gotham, "Helvetica Neue";
+  font-size: 30px;
+  color: #56bcbb;
+  padding-bottom: 30px;
+}
+
+#ouradvisors img {
+  width: 180px;
+  border-radius: 50%;
+  margin-right: 32px;
+}
+
+#ouradvisors img, #ouradvisors content {
+  display: inline-block;
+}
+
+#ouradvisors content li {
+  padding-bottom: 20px;
+}
+
+#ouradvisors h2, #ouradvisors article {
+  margin-bottom: 100px;
+  padding-left: 15%;
+}
+
+ #ouradvisors h2:last-child {
+   margin-top: 120px;
+   width: 45%;
+ }
+
+#ourinvestors {
+  background: url(slike/nik-macmillan-280300.png);
+  background-size: cover;
+}
+
+
+#ourinvestors p {
+  color: #56bcbb;
+  clear: both;
+  margin-left: 15%;
+  padding-bottom: 1%;
+  font-family: Font1, Helvetica, Arial, Gotham, "Helvetica Neue";
+  font-size: 30px;
+}
+
+#ourinvestors img {
+  margin-left: 15%;
+  width: 15%;
+  opacity: 0.5;
+  padding-bottom: 3%;
+}
+
+
+#ourinvestors img:last-child {
+  margin-left: 2%;
+}
+
+#ourinvestors h2 {
+  margin-bottom: 3%;
+}
+
+.dva {
+  padding-bottom: 3%;
+}
+
+footer {
+  background-color: #56bcbb;
+  color: white;
+  text-align: center;
+  padding: 17px 0;
+}
+
+/*RESPONSIVE*/
+
+
+@media screen and (max-width:481px){
+
+    body {
+      text-align: center;
+    }
+
+    button {
+      padding: 1em 2em;
+      font-size: 1em;
+      margin: 0 auto;
+    }
+
+
+    header img {
+      margin-top: 50%;
+      margin-bottom: 60%;
+      width: 80%;
+      margin-left: 0;
+    }
+
+    header p {
+      font-size: 1.5em;
+    }
+
+    header img:last-child {
+      width: 20%;
+      margin-left: 0;
+      padding-bottom: 10%;
+    }
+
+    hr {
+      width: 50%;
+      margin-top: 5%;
+      margin-left: 28%;
+    }
+
+    #aboutus hr {
+      width: 50%;
+      margin-left: 27%;
+
+    }
+
+    #aboutus article, h1, h2 {
+      width: 90%;
+      display: block;
+    }
+
+    h1, h2 {
+      font-size: 2.5em;
+      padding-left: 15%;
+    }
+
+
+    #aboutus article, #aboutus h2 {
+      margin-top: 60%;
+    }
+
+    #aboutus h1 {
+      margin-top: 40%;
+    }
+
+    #ourportfolio article {
+      width: 80%;
+      margin-left: 10%;
+    }
+
+    #ourportfolio article.edgybees, #ourportfolio article.lookingglass {
+      margin-left: 10%;
+    }
+
+    #ourportfolio article.elroy img {
+      width: 65%;
+      margin-left: 0;
+    }
+
+    #ourportfolio article.planck img {
+      width: 80%;
+      margin-left: 10%;
+    }
+
+    #ourportfolio article.edgybees img {
+      width: 100%;
+      margin-left: 38%;
+    }
+
+    #ourportfolio article.lookingglass img {
+      width: 100%;
+      margin-left: 20%;
+      padding-bottom: 2%;
+    }
+
+    #ourportfolio h1:last-child {
+      padding-left: 10%;
+      padding-right: 0;
+      width: 85%;
+    }
+
+    #ouradvisors h2 {
+      margin-left:0;
+      padding-left: 25%;
+    }
+
+
+
+    #ourportfolio, #ourinvestors {
+      overflow: hidden;
+    }
+
+
+    #ouradvisors ul li {
+      list-style: none;
+      font-size: .9em;
+    }
+
+    #ouradvisors img {
+      margin-left: 10%;
+    }
+
+    #ouradvisors h2:last-child {
+      margin-left: 0;
+      margin-top: 0;
+    }
+
+    #ourinvestors h2 {
+      margin-left: 5%;
+      width: 70%;
+      margin-bottom: 10%;
+    }
+
+
+    #ourinvestors img {
+      margin-left: 5%;
+      width: 70%;
+      margin-bottom: 10%;
+    }
+
+    #ourinvestors p {
+      font-size: 2em;
+      margin-top: 10%;
+      margin-bottom: 5%;
+    }
+
+    footer {
+      font-size: .9em;
+    }
+
+}
+
+}
